@@ -1,3 +1,8 @@
+variable "context" {
+  description = "Pass in the appropriate label context module to this variable."
+  type        = any
+}
+
 variable "description" {
   description = "The description for the KMS key."
   type        = string
